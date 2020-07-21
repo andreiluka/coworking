@@ -70,6 +70,12 @@ ul {
    list-style: none;
 }
 
+img {
+   display: block;
+   max-width: 100%;
+   max-height: 100%;
+}
+
 .container {
    width: 1050px;
    margin: 0 auto;
@@ -165,15 +171,9 @@ ul {
 /* Банер */
 
 .baner {
-   overflow: hidden;
-   height: 359px;
    margin-bottom: 26px;
 }
 
-.baner__img {
-   display: inline-block;
-   max-height: 100%;
-}
 
 
 /* sidebar */
