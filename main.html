@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/normalize.css">
    <link rel="stylesheet" href="./css/main.css">
    <title>Coworking</title>
 </head>
@@ -11,169 +12,172 @@
 <body>
 
    <div class="wrapper">
-      <header class="header">
-         <div class="container header__container">
-            <a href="#" class="logo header__logo">
-               <img src="image/logo-fig.png" alt="логотип" class="logo__img">
-            </a>
-            <div class="contacts">
-               <a href="tel:+78000039210" class="contacts__tel">8 (800) 00-392-10</a>
-               <div class="contacts__schedule">График работы</div>
-               <div class="contacts__info">
-                  <div class="contacts__time">пн-вс: 09:00-20:00</div>
-                  <div class="contacts__break">обед: 14:00-14:30</div>
-               </div>
-            </div>
-         </div>
-      </header>
-
-      <div class="container">
-         <div class="baner">
-            <img src="image/baner.png" alt="банер коворкинг твоей мечты" class="baner__img">
-         </div>
-         <div class="content">
-            <aside class="sidebar">
-               <nav class="nav">
-                  <ul class="nav__list">
-                     <li class="nav__item nav__item--active">
-                        <a href="#" class="nav__link nav__icon-main">ГЛАВНАЯ</a>
-                     </li>
-                     <li class="nav__item">
-                        <a href="#" class="nav__link nav__icon-feed">ОТЗЫВЫ</a>
-                     </li>
-                     <li class="nav__item">
-                        <a href="#" class="nav__link nav__icon-wallet">ТАРИФЫ</a>
-                     </li>
-                  </ul>
-               </nav>
-            </aside>
-            <main class="main">
-               <section class="features">
-                  <h2 class="title title__features">Особенности</h2>
-                  <ul class="features__list">
-                     <li class="features__item">
-                        <div class="features__item-block">
-                           <div class="features__icon features__icon-flower">
-                           </div>
-                           <h4 class="features__name">уникальность</h4>
-                           <div class="features__desc">
-                              <p class="features__text">Создан для вашего комфортного отдыха</p>
-                              <ul class="features__list">
-                                 <li class="features__desc-item">Кофе/чай</li>
-                                 <li class="features__desc-item">Шкаф (5 кг)</li>
-                                 <li class="features__desc-item">Рабочее место</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="features__item">
-                        <div class="features__item-block">
-                           <div class="features__icon features__icon-star">
-                           </div>
-                           <h4 class="features__name">премиум-класс</h4>
-                           <div class="features__desc">
-                              <p class="features__text">Для любителей хороших впечатлений</p>
-                              <ul class="features__desc-list">
-                                 <li class="features__desc-item">Обед+кофе</li>
-                                 <li class="features__desc-item">Шкаф (10 кг)</li>
-                                 <li class="features__desc-item">Детское кресло</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </li>
-                     <li class="features__item">
-                        <div class="features__item-block">
-                           <div class="features__icon features__icon-palette">
-                           </div>
-                           <h4 class="features__name">лакшери-стулья</h4>
-                           <div class="features__desc">
-                              <p class="features__text">Всё самое лучшее и незабываемое</p>
-                              <ul class="features__desc-list">
-                                 <li class="features__desc-item">Джакузи</li>
-                                 <li class="features__desc-item">Шкаф (15 кг)</li>
-                                 <li class="features__desc-item">Табуретка</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </li>
-                  </ul>
-               </section>
-               <section class="news">
-                  <h2 class="title title__news">Последние новости</h2>
-                  <ul class="news__list">
-                     <li class="news__item">
-                        <div class="news__img">
-                           <img src="image/black-hole.jpg" alt="черная дыра" class="news__pic">
-                        </div>
-                        <div class="news__desc">
-                           <div class="news__date">12.10.2016</div>
-                           <h4 class="news__name">Чёрная дыра скидок!</h4>
-                           <p class="news__text">Ключевым технологическим партнером GrowUp является дата-центр
-                              Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета
-                              будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте
-                              шкаф для хранения личных вещей. </p>
-                        </div>
-                     </li>
-                     <li class="news__item">
-                        <div class="news__img">
-                           <img src="image/raised-fire.jpg" alt="фальшфейер" class="news__pic">
-                        </div>
-                        <div class="news__desc">
-                           <div class="news__date">01.02.2016</div>
-                           <h4 class="news__name">Заражай друзей, получай призы!</h4>
-                           <p class="news__text">Быть частью сообщества сильных, грамотных и увлеченных своим
-                              делом профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в
-                              коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для
-                              резидентов.</p>
-                        </div>
-                     </li>
-                     <li class="news__item">
-                        <div class="news__img">
-                           <img src="image/workplace.jpg" alt="рабочее место" class="news__pic">
-                        </div>
-                        <div class="news__desc">
-                           <div class="news__date">22.12.2015</div>
-                           <h4 class="news__name">Новое рабочее место для бизнесменов.</h4>
-                           <p class="news__text">Для резидентов коворкинга оборудована не только рабочая зона,
-                              но и зона отдыха. Она включает в себя: кухонную зону и зону релакса. Каждый резидент
-                              может беспрепятственно пользоваться кухонным оборудованием: микроволновкой,
-                              чайником,
-                              кофе машиной, посудой.</p>
-                        </div>
-                     </li>
-                  </ul>
-               </section>
-               <div class="pagination">
-                  <div class="pagination__text">Страница 1 из 7</div>
-                  <div class="pagination__buttons">
-                     <a href="#" class="pagination__arrow pagination__arrow--gray">&lt;</a>
-                     <ul class="pagination__list">
-                        <li class="pagination__item pagination__item--active">
-                           <div class="pagination__numb"><a href="#" class="pagination__link">1</a></div>
-                        </li>
-                        <li class="pagination__item">
-                           <div class="pagination__numb"><a href="#" class="pagination__link">2</a></div>
-                        </li>
-                        <li class="pagination__item">
-                           <div class="pagination__numb"><a href="#" class="pagination__link">3</a></div>
-                        </li>
-                        <li class="pagination__item">
-                           <div class="pagination__numb"><a href="#" class="pagination__link">4</a></div>
-                        </li>
-                        <li class="pagination__item">
-                           <div class="pagination__numb"><a href="#" class="pagination__link">5</a></div>
-                        </li>
-                        <li class="pagination__item">
-                           <div class="pagination__numb"><a href="#" class="pagination__link">6</a></div>
-                        </li>
-                        <li class="pagination__item">
-                           <div class="pagination__numb"><a href="#" class="pagination__link">7</a></div>
-                        </li>
-                     </ul>
-                     <a href="#" class="pagination__arrow">&gt;</a>
+      <div class="wrapper__content">
+         <header class="header">
+            <div class="container header__container">
+               <a href="#" class="logo header__logo">
+                  <img src="image/logo-fig.png" alt="логотип" class="logo__img">
+               </a>
+               <div class="contacts">
+                  <a href="tel:+78000039210" class="contacts__tel">8 (800) 00-392-10</a>
+                  <div class="contacts__schedule">График работы</div>
+                  <div class="contacts__info">
+                     <div class="contacts__time">пн-вс: 09:00-20:00</div>
+                     <div class="contacts__break">обед: 14:00-14:30</div>
                   </div>
                </div>
-            </main>
+            </div>
+         </header>
+
+
+         <div class="container">
+            <div class="baner">
+               <img src="image/baner.png" alt="банер коворкинг твоей мечты" class="baner__img">
+            </div>
+            <div class="content">
+               <aside class="sidebar">
+                  <nav class="nav">
+                     <ul class="nav__list">
+                        <li class="nav__item nav__item--active">
+                           <a href="#" class="nav__link nav__icon-main">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#" class="nav__link nav__icon-feed">ОТЗЫВЫ</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="#" class="nav__link nav__icon-wallet">ТАРИФЫ</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </aside>
+               <main class="main">
+                  <section class="features">
+                     <h2 class="title title__features">Особенности</h2>
+                     <ul class="features__list">
+                        <li class="features__item">
+                           <div class="features__item-block">
+                              <div class="features__icon features__icon-flower">
+                              </div>
+                              <h4 class="features__name">уникальность</h4>
+                              <div class="features__desc">
+                                 <p class="features__text">Создан для вашего комфортного отдыха</p>
+                                 <ul class="features__list">
+                                    <li class="features__desc-item">Кофе/чай</li>
+                                    <li class="features__desc-item">Шкаф (5 кг)</li>
+                                    <li class="features__desc-item">Рабочее место</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="features__item">
+                           <div class="features__item-block">
+                              <div class="features__icon features__icon-star">
+                              </div>
+                              <h4 class="features__name">премиум-класс</h4>
+                              <div class="features__desc">
+                                 <p class="features__text">Для любителей хороших впечатлений</p>
+                                 <ul class="features__desc-list">
+                                    <li class="features__desc-item">Обед+кофе</li>
+                                    <li class="features__desc-item">Шкаф (10 кг)</li>
+                                    <li class="features__desc-item">Детское кресло</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="features__item">
+                           <div class="features__item-block">
+                              <div class="features__icon features__icon-palette">
+                              </div>
+                              <h4 class="features__name">лакшери-стулья</h4>
+                              <div class="features__desc">
+                                 <p class="features__text">Всё самое лучшее и незабываемое</p>
+                                 <ul class="features__desc-list">
+                                    <li class="features__desc-item">Джакузи</li>
+                                    <li class="features__desc-item">Шкаф (15 кг)</li>
+                                    <li class="features__desc-item">Табуретка</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </section>
+                  <section class="news">
+                     <h2 class="title title__news">Последние новости</h2>
+                     <ul class="news__list">
+                        <li class="news__item">
+                           <div class="news__img">
+                              <img src="image/black-hole.jpg" alt="черная дыра" class="news__pic">
+                           </div>
+                           <div class="news__desc">
+                              <div class="news__date">12.10.2016</div>
+                              <h4 class="news__name">Чёрная дыра скидок!</h4>
+                              <p class="news__text">Ключевым технологическим партнером GrowUp является дата-центр
+                                 Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета
+                                 будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте
+                                 шкаф для хранения личных вещей. </p>
+                           </div>
+                        </li>
+                        <li class="news__item">
+                           <div class="news__img">
+                              <img src="image/raised-fire.jpg" alt="фальшфейер" class="news__pic">
+                           </div>
+                           <div class="news__desc">
+                              <div class="news__date">01.02.2016</div>
+                              <h4 class="news__name">Заражай друзей, получай призы!</h4>
+                              <p class="news__text">Быть частью сообщества сильных, грамотных и увлеченных своим
+                                 делом профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в
+                                 коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для
+                                 резидентов.</p>
+                           </div>
+                        </li>
+                        <li class="news__item">
+                           <div class="news__img">
+                              <img src="image/workplace.jpg" alt="рабочее место" class="news__pic">
+                           </div>
+                           <div class="news__desc">
+                              <div class="news__date">22.12.2015</div>
+                              <h4 class="news__name">Новое рабочее место для бизнесменов.</h4>
+                              <p class="news__text">Для резидентов коворкинга оборудована не только рабочая зона,
+                                 но и зона отдыха. Она включает в себя: кухонную зону и зону релакса. Каждый резидент
+                                 может беспрепятственно пользоваться кухонным оборудованием: микроволновкой,
+                                 чайником,
+                                 кофе машиной, посудой.</p>
+                           </div>
+                        </li>
+                     </ul>
+                  </section>
+                  <div class="pagination">
+                     <div class="pagination__text">Страница 1 из 7</div>
+                     <div class="pagination__buttons">
+                        <a href="#" class="pagination__arrow pagination__arrow--gray">&lt;</a>
+                        <ul class="pagination__list">
+                           <li class="pagination__item pagination__item--active">
+                              <div class="pagination__numb"><a href="#" class="pagination__link">1</a></div>
+                           </li>
+                           <li class="pagination__item">
+                              <div class="pagination__numb"><a href="#" class="pagination__link">2</a></div>
+                           </li>
+                           <li class="pagination__item">
+                              <div class="pagination__numb"><a href="#" class="pagination__link">3</a></div>
+                           </li>
+                           <li class="pagination__item">
+                              <div class="pagination__numb"><a href="#" class="pagination__link">4</a></div>
+                           </li>
+                           <li class="pagination__item">
+                              <div class="pagination__numb"><a href="#" class="pagination__link">5</a></div>
+                           </li>
+                           <li class="pagination__item">
+                              <div class="pagination__numb"><a href="#" class="pagination__link">6</a></div>
+                           </li>
+                           <li class="pagination__item">
+                              <div class="pagination__numb"><a href="#" class="pagination__link">7</a></div>
+                           </li>
+                        </ul>
+                        <a href="#" class="pagination__arrow">&gt;</a>
+                     </div>
+                  </div>
+               </main>
+            </div>
          </div>
       </div>
 
