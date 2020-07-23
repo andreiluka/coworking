@@ -1,0 +1,51 @@
+.social {
+   display: inline-block;
+   vertical-align: top;
+}
+
+.social__text {
+   font-size: 14px;
+   font-weight: bold;
+   margin: 13px 0 9px;
+}
+
+.social__item {
+   display: inline-block;
+   vertical-align: top;
+   width: 20px;
+   height: 20px;
+   background-color: #d3d3d7;
+   border-radius: 50%;
+   margin-right: 10px;
+   position: relative;
+}
+
+.social__item:hover {
+   cursor: pointer;
+   background-color: #cb2376;
+}
+
+.social__link {
+   display: block;
+   width: 12px;
+   height: 13px;
+   position: absolute;
+   top: 4px;
+   left: 4px;
+}
+
+.social__link-vk {
+   background: url(../../image/vk.png) center center no-repeat;
+}
+
+.social__link-fb {
+   background: url(../../image/fb.png) center center no-repeat;
+}
+
+.social__link-twitter {
+   background: url(../../image/twitter.png) center center no-repeat;
+}
+
+.social__link-mail {
+   background: url(../../image/mail.png) center center no-repeat;
+}

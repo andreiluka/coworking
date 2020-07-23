@@ -1,0 +1,71 @@
+.nav__link {
+   font-size: 12px;
+   letter-spacing: 1.2px;
+   line-height: 4.5em;
+   color: #cb2376;
+   font-weight: bold;
+   text-decoration: none;
+   position: relative;
+   margin-left: 37px;
+}
+
+.nav__link:before {
+   content: "";
+   width: 20px;
+   height: 18px;
+   display: block;
+   position: absolute;
+   top: -4px;
+   left: -38px;
+}
+
+.nav__icon-main:before {
+   background: url(../../image/main_icon.png) center center no-repeat;
+}
+
+.nav__icon-feed:before {
+   background: url(../../image/feed_icon.png) center center no-repeat;
+}
+
+.nav__icon-wallet:before {
+   background: url(../../image/wallet_icon.png) center center no-repeat;
+}
+
+
+/* по ховеру */
+
+.nav__link:hover {
+   color: #000000;
+}
+
+.nav__icon-main:hover:before {
+   background: url(../../image/main_icon_black.png) center center no-repeat;
+}
+
+.nav__icon-feed:hover:before {
+   background: url(../../image/feed_icon_black.png) center center no-repeat;
+}
+
+.nav__icon-wallet:hover:before {
+   background: url(../../image/wallet_icon_black.png) center center no-repeat;
+}
+
+
+/* по активу */
+
+.nav__item--active .nav__link {
+   cursor: initial;
+   color: #000000;
+}
+
+.nav__item--active .nav__icon-main:before {
+   background: url(../../image/main_icon_black.png) center center no-repeat;
+}
+
+.nav__item--active .nav__icon-feed:before {
+   background: url(../../image/feed_icon_black.png) center center no-repeat;
+}
+
+.nav__item--active .nav__icon-wallet:before {
+   background: url(../../image/wallet_icon_black.png) center center no-repeat;
+}

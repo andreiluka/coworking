@@ -1,0 +1,13 @@
+.logo {
+   display: inline-block;
+
+}
+
+.logo:hover {
+   /* -webkit-transform: scale(1.05);
+   -ms-transform: scale(1.05);
+   transform: scale(1.05); */
+   -webkit-transform: rotate(8deg);
+   -ms-transform: rotate(8deg);
+   transform: rotate(8deg);
+}

@@ -1,0 +1,55 @@
+@font-face {
+   font-family: "GothamPro";
+   src: url("../../fonts/GothamPro.woff") format("woff"),
+      url("../../fonts/GothamPro.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "GothamPro";
+   src: url("../../fonts/GothaProBol.woff") format("woff"),
+      url("../../fonts/GothaProBol.woff2") format("woff2");
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "GothamPro";
+   src: url("../../fonts/GothaProLig.woff") format("woff"),
+      url("../../fonts/GothaProLig.woff2") format("woff2");
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "GothamPro";
+   src: url("../../fonts/GothaProLigIta.woff") format("woff"),
+      url("../../fonts/GothaProLigIta.woff2") format("woff2");
+   font-weight: 300;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "OpenSans";
+   src: url("../../fonts/OpenSans-Bold.woff") format("woff"),
+      url("../../fonts/OpenSans-Bold.woff2") format("woff2");
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Roboto";
+   src: url("../../fonts/Roboto-Bold.woff") format("woff"),
+      url("../../fonts/Roboto-Bold.woff2") format("woff2");
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Roboto";
+   src: url("../../fonts/Roboto-Light.woff") format("woff"),
+      url("../../fonts/Roboto-Light.woff2") format("woff2");
+   font-weight: 300;
+   font-style: normal;
+}
