@@ -1,11 +1,10 @@
 .footer {
-   min-height: 77px;
    background: #2b2b40;
    color: #ffffff;
-   vertical-align: middle;
 }
 
-.footer__logo {
-   vertical-align: top;
-   margin: 13px 286px 0 0;
+.footer__container {
+   display: flex;
+   justify-content: space-between;
+   padding: 13px 0;
 }

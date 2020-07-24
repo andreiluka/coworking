@@ -6,10 +6,11 @@
 }
 
 .news__list {
-   margin-bottom: 26px;
+   margin-bottom: 43px;
 }
 
 .news__item {
+   display: flex;
    padding: 20px 0;
    border-bottom: #f4f4f4 2px solid;
 }
@@ -18,17 +19,11 @@
    border-bottom: none;
 }
 
-.news__img,
-.news__desc {
-   display: inline-block;
-   vertical-align: top;
-}
-
 .news__img {
    width: 160px;
    height: 160px;
    overflow: hidden;
-   border-radius: 100%;
+   border-radius: 50%;
    margin-right: 20px;
 }
 
@@ -46,6 +41,7 @@
 }
 
 .news__name {
+   font-weight: 700;
    line-height: 1.17;
    margin: 0 0 13px;
    color: #262424;

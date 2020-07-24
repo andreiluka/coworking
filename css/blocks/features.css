@@ -1,11 +1,12 @@
 /* Особенности */
 
+.features__list {
+   display: flex;
+}
 
 .features__item {
-   display: inline-block;
-   vertical-align: top;
    width: 217px;
-   margin: 0 24px 70px;
+   margin: 0 37px 68px 17px;
    text-align: center;
    color: #262626;
 }
@@ -16,7 +17,7 @@
    border-radius: 50%;
    background-color: #2b2b40;
    position: relative;
-   margin: auto;
+   margin: 0 auto 12px;
 }
 
 .features__icon:after {
@@ -47,13 +48,12 @@
    line-height: 4.68;
    letter-spacing: 2.64px;
    text-transform: uppercase;
-   margin-bottom: 0;
 }
 
 .features__text,
 .features__list {
    font-size: 18px;
-   line-height: 1.67;
+   line-height: 1.72;
    margin: 0;
 }
 

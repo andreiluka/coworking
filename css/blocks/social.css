@@ -1,22 +1,20 @@
-.social {
-   display: inline-block;
-   vertical-align: top;
-}
-
 .social__text {
    font-size: 14px;
    font-weight: bold;
-   margin: 13px 0 9px;
+   line-height: 1.9;
+   margin-bottom: 3px;
+}
+
+.social__list {
+   display: flex;
 }
 
 .social__item {
-   display: inline-block;
-   vertical-align: top;
    width: 20px;
    height: 20px;
    background-color: #d3d3d7;
    border-radius: 50%;
-   margin-right: 10px;
+   margin-right: 11px;
    position: relative;
 }
 

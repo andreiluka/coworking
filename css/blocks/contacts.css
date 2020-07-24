@@ -1,7 +1,5 @@
 .contacts {
-   position: absolute;
-   right: 0;
-   top: 10px;
+   position: relative;
    text-align: right;
 }
 
@@ -17,7 +15,6 @@
 }
 
 .contacts__schedule {
-   margin-bottom: 22px;
    font-family: "OpenSans";
    font-size: 14px;
    font-weight: bold;
@@ -28,7 +25,7 @@
 .contacts__schedule:hover {
    cursor: pointer;
    color: #8f9dcb;
-   transition: 0.5s;
+   transition: 0.3s;
 }
 
 .contacts__schedule:hover+.contacts__info {
@@ -36,8 +33,12 @@
 }
 
 .contacts__info {
+   position: absolute;
+   top: 62px;
+   right: 0;
    visibility: hidden;
-   display: inline-block;
+   /* display: flex;
+   flex-direction: column; */
    border-radius: 4px;
    padding: 13px 11px;
    text-align: left;

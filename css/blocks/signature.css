@@ -1,11 +1,8 @@
 .signature {
-   display: inline-block;
-   vertical-align: top;
    width: 266px;
    font-size: 14px;
    font-weight: 300;
-   line-height: 1.29;
-   margin: 11px 216px 0 0;
+   line-height: 1.28;
 }
 
 .signature__link {
