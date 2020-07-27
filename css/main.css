@@ -17,3 +17,7 @@
 @import url('./blocks/footer.css');
 @import url('./blocks/signature.css');
 @import url('./blocks/social.css');
+
+@import url('./blocks/content-list.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/breadcrumbs.css');

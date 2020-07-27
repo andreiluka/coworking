@@ -52,7 +52,7 @@ table {
 
 .wrapper {
    overflow: hidden;
-   min-width: 1050px;
+   min-width: 1060px;
    min-height: 100%;
    display: flex;
    flex-direction: column;

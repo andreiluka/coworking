@@ -1,0 +1,38 @@
+.breadcrumbs {
+   font-size: 14px;
+   font-weight: 300;
+   font-style: italic;
+   line-height: 1.29;
+
+}
+
+.breadcrumbs__item {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.breadcrumbs__link {
+   line-height: 3.1;
+   color: #cb2376;
+}
+
+.breadcrumbs__link:hover {
+   text-decoration: none;
+}
+
+.breadcrumbs__item:after {
+   content: " / ";
+   display: inline-block;
+   vertical-align: middle;
+   color: #262424;
+}
+
+.breadcrumbs__item:last-child:after {
+   display: none;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+   text-decoration: none;
+   cursor: default;
+   color: #262424;
+}
