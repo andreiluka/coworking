@@ -7,6 +7,7 @@
    text-decoration: none;
    position: relative;
    margin-left: 37px;
+   transition: 0.3s;
 }
 
 .nav__link:before {
@@ -21,14 +22,17 @@
 
 .nav__icon-main:before {
    background: url(../../image/main_icon.png) center center no-repeat;
+   transition: 0.3s;
 }
 
 .nav__icon-feed:before {
    background: url(../../image/feed_icon.png) center center no-repeat;
+   transition: 0.3s;
 }
 
 .nav__icon-wallet:before {
    background: url(../../image/wallet_icon.png) center center no-repeat;
+   transition: 0.3s;
 }
 
 
@@ -40,14 +44,17 @@
 
 .nav__icon-main:hover:before {
    background: url(../../image/main_icon_black.png) center center no-repeat;
+   /* transition: 0.3s; */
 }
 
 .nav__icon-feed:hover:before {
    background: url(../../image/feed_icon_black.png) center center no-repeat;
+   /* transition: 0.3s; */
 }
 
 .nav__icon-wallet:hover:before {
    background: url(../../image/wallet_icon_black.png) center center no-repeat;
+   /* transition: 0.3s; */
 }
 
 

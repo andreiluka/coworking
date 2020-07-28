@@ -1,11 +1,15 @@
 .reviews__header {
-   margin-bottom: 20px;
-}
-
-.reviews__title {
-   margin-bottom: 30px;
+   margin-bottom: 28px;
 }
 
 .reviews {
-   margin-bottom: 47px;
+   margin-bottom: 27px;
+}
+
+.reviews__title {
+   margin-bottom: 13px;
+}
+
+.reviews__pagination {
+   margin-bottom: 57px;
 }
