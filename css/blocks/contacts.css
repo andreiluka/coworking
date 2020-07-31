@@ -1,6 +1,7 @@
 .contacts {
    position: relative;
    text-align: right;
+   font-style: normal;
 }
 
 .contacts__tel {

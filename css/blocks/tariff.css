@@ -1,0 +1,51 @@
+.tariff__header {
+   margin-bottom: 45px;
+}
+
+.tariff__list {
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: -55px;
+}
+
+.tariff__item {
+   width: calc(100% / 3 - 62px);
+   margin: 0 0 48px 55px;
+}
+
+.tariff-offer {
+   text-align: center;
+}
+
+.tariff-offer__img {
+   position: relative;
+   /* width: 250px; */
+   /* height: 153px; */
+   border-radius: 3px;
+   margin-bottom: 20px;
+}
+
+.tariff-offer__name {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: -50%;
+   translate: -50%;
+   font-size: 24px;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: #8ad0f6;
+}
+
+.tariff-offer__price {
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 7px;
+}
+
+.tariff-offer__text {
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.5;
+   margin: 0;
+}
