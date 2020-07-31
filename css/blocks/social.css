@@ -28,23 +28,29 @@
    display: block;
    width: 12px;
    height: 13px;
+   background-image: url(../../image/sprite.png);
+   background-repeat: no-repeat;
    position: absolute;
    top: 4px;
    left: 4px;
 }
 
 .social__link-vk {
-   background: url(../../image/vk.png) center center no-repeat;
+   /* background: url(../../image/vk.png) center center no-repeat; */
+   background-position: -295px -2px;
 }
 
 .social__link-fb {
-   background: url(../../image/fb.png) center center no-repeat;
+   /* background: url(../../image/fb.png) center center no-repeat; */
+   background-position: -2px -5px;
 }
 
 .social__link-twitter {
-   background: url(../../image/twitter.png) center center no-repeat;
+   /* background: url(../../image/twitter.png) center center no-repeat; */
+   background-position: -273px -4px;
 }
 
 .social__link-mail {
-   background: url(../../image/mail.png) center center no-repeat;
+   /* background: url(../../image/mail.png) center center no-repeat; */
+   background-position: -118px -4px;
 }

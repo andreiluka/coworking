@@ -23,23 +23,25 @@
 .features__icon:after {
    content: "";
    display: block;
+   background-image: url(../../image/sprite.png);
+   background-repeat: no-repeat;
    width: 32px;
    height: 32px;
    position: absolute;
-   top: 17px;
-   left: 18px;
+   top: 18px;
+   left: 20px;
 }
 
 .features__icon-flower:after {
-   background: url(../../image/flower.png) center center no-repeat;
+   background-position: -80px -5px;
 }
 
 .features__icon-star:after {
-   background: url(../../image/star.png) center center no-repeat;
+   background-position: -193px -3px;
 }
 
 .features__icon-palette:after {
-   background: url(../../image/palette.png) center center no-repeat;
+   background-position: -233px -6px;
 }
 
 .features__name {

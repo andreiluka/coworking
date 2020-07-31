@@ -1,0 +1,20 @@
+.partners {
+   margin-bottom: 42px;
+}
+
+.partners__list {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.partners__item {
+   flex: 1 0 260px;
+   margin-bottom: 52px;
+   filter: sepia(100%);
+   transition: 0.3s;
+}
+
+.partners__item:hover {
+   filter: none;
+}

@@ -10,29 +10,31 @@
    transition: 0.3s;
 }
 
-.nav__link:before {
+.nav__link:before,
+.nav__link:after {
    content: "";
    width: 20px;
    height: 18px;
    display: block;
    position: absolute;
-   top: -4px;
-   left: -38px;
-}
-
-.nav__icon-main:before {
-   background: url(../../image/main_icon.png) center center no-repeat;
+   top: -3px;
+   left: -36px;
+   background-image: url(../../image/sprite.png);
+   background-repeat: no-repeat;
    transition: 0.3s;
 }
 
-.nav__icon-feed:before {
-   background: url(../../image/feed_icon.png) center center no-repeat;
-   transition: 0.3s;
+
+.nav__icon-main:after {
+   background-position: -140px -5px;
 }
 
-.nav__icon-wallet:before {
-   background: url(../../image/wallet_icon.png) center center no-repeat;
-   transition: 0.3s;
+.nav__icon-feed:after {
+   background-position: -21px -5px;
+}
+
+.nav__icon-wallet:after {
+   background-position: -317px -5px;
 }
 
 
@@ -42,20 +44,22 @@
    color: #000000;
 }
 
-.nav__icon-main:hover:before {
-   background: url(../../image/main_icon_black.png) center center no-repeat;
-   /* transition: 0.3s; */
+.nav__link:hover:after {
+   opacity: 0;
 }
 
-.nav__icon-feed:hover:before {
-   background: url(../../image/feed_icon_black.png) center center no-repeat;
-   /* transition: 0.3s; */
+.nav__icon-main:before {
+   background-position: -167px -5px;
 }
 
-.nav__icon-wallet:hover:before {
-   background: url(../../image/wallet_icon_black.png) center center no-repeat;
-   /* transition: 0.3s; */
+.nav__icon-feed:before {
+   background-position: -51px -5px;
 }
+
+.nav__icon-wallet:before {
+   background-position: -346px -5px;
+}
+
 
 
 /* по активу */
@@ -65,14 +69,6 @@
    color: #000000;
 }
 
-.nav__item--active .nav__icon-main:before {
-   background: url(../../image/main_icon_black.png) center center no-repeat;
-}
-
-.nav__item--active .nav__icon-feed:before {
-   background: url(../../image/feed_icon_black.png) center center no-repeat;
-}
-
-.nav__item--active .nav__icon-wallet:before {
-   background: url(../../image/wallet_icon_black.png) center center no-repeat;
+.nav__item--active .nav__link:after {
+   opacity: 0;
 }
