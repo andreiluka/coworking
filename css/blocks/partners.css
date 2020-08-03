@@ -2,6 +2,11 @@
    margin-bottom: 42px;
 }
 
+.partners__title {
+   line-height: 1.25;
+   margin-bottom: 36px;
+}
+
 .partners__list {
    display: flex;
    flex-wrap: wrap;
@@ -11,7 +16,7 @@
 .partners__item {
    flex: 1 0 260px;
    margin-bottom: 52px;
-   filter: sepia(100%);
+   filter: saturate(0%);
    transition: 0.3s;
 }
 

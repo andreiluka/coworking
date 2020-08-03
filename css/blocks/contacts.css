@@ -21,32 +21,42 @@
    font-weight: bold;
    color: #cb2376;
    text-decoration: underline;
+   transition: 0.3s;
 }
 
 .contacts__schedule:hover {
    cursor: pointer;
    color: #8f9dcb;
-   transition: 0.3s;
 }
 
-.contacts__schedule:hover+.contacts__info {
-   visibility: visible;
+.contacts__schedule:hover .contacts__info {
+   right: 0;
+   opacity: 1;
+   transition: opacity 0.3s;
 }
 
 .contacts__info {
    position: absolute;
-   top: 62px;
-   right: 0;
-   visibility: hidden;
-   /* display: flex;
-   flex-direction: column; */
+   top: 64px;
+   right: -1000px;
+   opacity: 0;
    border-radius: 4px;
    padding: 13px 11px;
    text-align: left;
    font-size: 14px;
    line-height: 1.6;
-   box-shadow: 0 0 10px 0 rgba(42, 61, 115, 0.55);
+   box-shadow: 3px 4px 5px rgba(42, 61, 115, 0.55);
    background-color: #ffffff;
+   font-family: "GothamPro", Helvetica, sans-serif;
+}
+
+.contacts__info:before {
+   content: '';
+   border: 9px solid transparent;
+   border-bottom-color: #ffffff;
+   position: absolute;
+   bottom: 70px;
+   right: 11px;
 }
 
 

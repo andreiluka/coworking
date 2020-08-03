@@ -1,5 +1,10 @@
 .tariff__header {
-   margin-bottom: 45px;
+   margin-bottom: 30px;
+}
+
+.tariff__title {
+   line-height: 1.25;
+   margin-bottom: 38px;
 }
 
 .tariff__list {
@@ -10,7 +15,7 @@
 
 .tariff__item {
    width: calc(100% / 3 - 62px);
-   margin: 0 0 48px 55px;
+   margin: 0 0 39px 55px;
 }
 
 .tariff-offer {
@@ -19,22 +24,49 @@
 
 .tariff-offer__img {
    position: relative;
-   /* width: 250px; */
-   /* height: 153px; */
-   border-radius: 3px;
+   max-height: 153px;
+   overflow: hidden;
+   border-radius: 4px;
    margin-bottom: 20px;
+   cursor: pointer;
+}
+
+.tariff-offer__img:after {
+   content: "";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   opacity: 0.85;
+   background-color: #2b2b40;
+   transition: 0.5s;
 }
 
 .tariff-offer__name {
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: -50%;
-   translate: -50%;
+   transform: translate(-50%, -50%);
    font-size: 24px;
    font-weight: bold;
    text-transform: uppercase;
    color: #8ad0f6;
+   z-index: 1;
+   transition: 0.5s;
+}
+
+.tariff-offer__img:hover:after {
+   opacity: 0;
+}
+
+.tariff-offer__img:hover .tariff-offer__name {
+   opacity: 0;
+}
+
+.tariff-offer__name-vip {
+   color: #cb2376;
 }
 
 .tariff-offer__price {
