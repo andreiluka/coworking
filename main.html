@@ -36,6 +36,45 @@
             </div>
             <div class="content">
                <aside class="sidebar">
+                  <div class="features">
+                     <div class="features__icon features__icon-flower">
+                     </div>
+                     <h4 class="features__name">уникальность</h4>
+                     <div class="features__desc">
+                        <p class="features__text">Создан для вашего комфортного отдыха</p>
+                        <ul class="features__desc-list">
+                           <li class="features__desc-item">Кофе/чай</li>
+                           <li class="features__desc-item">Шкаф (5 кг)</li>
+                           <li class="features__desc-item">Рабочее место</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <span class="social">
+                     <div class="social__text">Наши социальные сети</div>
+                     <div class="social__group">
+                        <ul class="social__list">
+                           <li class="social__item">
+                              <a href="https://vk.com" title="вконтакте" class="social__link social__link-vk">
+                              </a>
+                           </li>
+                           <li class="social__item">
+                              <a href="https://facebook.com/" title="фейсбук" class="social__link social__link-fb">
+                              </a>
+                           </li>
+                           <li class="social__item">
+                              <a href="https://twitter.com/" title="твиттер" class="social__link social__link-twitter">
+                              </a>
+                           </li>
+                           <li class="social__item">
+                              <a href="https://mail.ru/" title="электронная почта"
+                                 class="social__link social__link-mail">
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </span>
+               </aside>
+               <main class="maincontent">
                   <nav class="nav">
                      <ul class="nav__list">
                         <li class="nav__item nav__item--active">
@@ -49,25 +88,10 @@
                         </li>
                      </ul>
                   </nav>
-               </aside>
-               <main class="maincontent">
-                  <section class="features">
+                  <!-- <section class="features">
                      <h2 class="title title__features">Особенности</h2>
                      <ul class="features__list">
                         <li class="features__item">
-                           <div class="features__item-block">
-                              <div class="features__icon features__icon-flower">
-                              </div>
-                              <h4 class="features__name">уникальность</h4>
-                              <div class="features__desc">
-                                 <p class="features__text">Создан для вашего комфортного отдыха</p>
-                                 <ul class="features__desc-list">
-                                    <li class="features__desc-item">Кофе/чай</li>
-                                    <li class="features__desc-item">Шкаф (5 кг)</li>
-                                    <li class="features__desc-item">Рабочее место</li>
-                                 </ul>
-                              </div>
-                           </div>
                         </li>
                         <li class="features__item">
                            <div class="features__item-block">
@@ -100,27 +124,31 @@
                            </div>
                         </li>
                      </ul>
-                  </section>
+                  </section> -->
                   <section class="news">
                      <h2 class="title news__title">Последние новости</h2>
                      <ul class="content-list news__list">
-                        <li class="content-list__item">
-                           <div class="content-list__img">
-                              <img src="image/black-hole.jpg" alt="черная дыра" class="content-list__pic">
+                        <li class="content-list__item news__item">
+                           <div class="content-list__block-img">
+                              <div class="content-list__img">
+                                 <img src="image/black-hole.jpg" alt="черная дыра" class="content-list__pic">
+                              </div>
                            </div>
                            <div class="content-list__desc">
                               <time class="content-list__date">12.10.2016</time>
                               <h4 class="content-list__name">Чёрная дыра скидок!</h4>
                               <p class="content-list__text">Ключевым технологическим партнером GrowUp является
-                                 дата-центр
-                                 Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета
+                                 дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость
+                                 интернета
                                  будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте
                                  шкаф для хранения личных вещей. </p>
                            </div>
                         </li>
-                        <li class="content-list__item">
-                           <div class="content-list__img">
-                              <img src="image/raised-fire.jpg" alt="фальшфейер" class="content-list__pic">
+                        <li class="content-list__item news__item">
+                           <div class="content-list__block-img">
+                              <div class="content-list__img">
+                                 <img src="image/raised-fire.jpg" alt="фальшфейер" class="content-list__pic">
+                              </div>
                            </div>
                            <div class="content-list__desc">
                               <time class="content-list__date">01.02.2016</time>
@@ -131,9 +159,11 @@
                                  резидентов.</p>
                            </div>
                         </li>
-                        <li class="content-list__item">
-                           <div class="content-list__img">
-                              <img src="image/workplace.jpg" alt="рабочее место" class="content-list__pic">
+                        <li class="content-list__item news__item">
+                           <div class="content-list__block-img">
+                              <div class="content-list__img">
+                                 <img src="image/workplace.jpg" alt="рабочее место" class="content-list__pic">
+                              </div>
                            </div>
                            <div class="content-list__desc">
                               <time class="content-list__date">22.12.2015</time>
@@ -191,29 +221,7 @@
             <a href="#" class="logo">
                <img src="image/logo-fig.png" alt="логотип" class="logo__img">
             </a>
-            <span class="social">
-               <div class="social__text">Наши социальные сети</div>
-               <div class="social__group">
-                  <ul class="social__list">
-                     <li class="social__item">
-                        <a href="https://vk.com" title="вконтакте" class="social__link social__link-vk">
-                        </a>
-                     </li>
-                     <li class="social__item">
-                        <a href="https://facebook.com/" title="фейсбук" class="social__link social__link-fb">
-                        </a>
-                     </li>
-                     <li class="social__item">
-                        <a href="https://twitter.com/" title="твиттер" class="social__link social__link-twitter">
-                        </a>
-                     </li>
-                     <li class="social__item">
-                        <a href="https://mail.ru/" title="электронная почта" class="social__link social__link-mail">
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </span>
+
          </div>
       </footer>
    </div>

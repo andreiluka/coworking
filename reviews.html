@@ -33,6 +33,41 @@
          <div class="container">
             <div class="content">
                <aside class="sidebar">
+
+                  <div class="advertising">
+                     <p class="advertising__text">
+                        Для наших новых клиентов мы предлагаем <strong>скидку 50%</strong> на первый день! Приходите,
+                        чтобы
+                        лично оценить преимущества коворкинга «Воркадиум»!
+                     </p>
+                  </div>
+                  <span class="social">
+                     <div class="social__text">Наши социальные сети</div>
+                     <div class="social__group">
+                        <ul class="social__list">
+                           <li class="social__item">
+                              <a href="https://vk.com" title="вконтакте" class="social__link social__link-vk">
+                              </a>
+                           </li>
+                           <li class="social__item">
+                              <a href="https://facebook.com/" title="фейсбук" class="social__link social__link-fb">
+                              </a>
+                           </li>
+                           <li class="social__item">
+                              <a href="https://twitter.com/" title="твиттер" class="social__link social__link-twitter">
+                              </a>
+                           </li>
+                           <li class="social__item">
+                              <a href="https://mail.ru/" title="электронная почта"
+                                 class="social__link social__link-mail">
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </span>
+
+               </aside>
+               <main class="maincontent">
                   <nav class="nav">
                      <ul class="nav__list">
                         <li class="nav__item">
@@ -46,9 +81,7 @@
                         </li>
                      </ul>
                   </nav>
-               </aside>
-               <main class="maincontent">
-                  <div class="breadcrumbs">
+                  <!-- <div class="breadcrumbs">
                      <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__item">
                            <a href="./main.html" class="breadcrumbs__link">Главная</a>
@@ -57,7 +90,7 @@
                            <a href="#" class="breadcrumbs__link">Отзывы</a>
                         </li>
                      </ul>
-                  </div>
+                  </div> -->
                   <section class="reviews">
                      <h1 class="title reviews__title">Отзывы</h1>
                      <ul class="content-list">
@@ -166,53 +199,49 @@
                         <a href="#" class="pagination__arrow">&gt;</a>
                      </div>
                   </div>
+                  <section class="form">
+                     <h2 class="title form__title">Оставить отзыв</h2>
+                     <form action="post" class="form__tag">
+                        <div class="form__row">
+                           <label class="form__block">
+                              <div class="form__block-name">Ваше имя</div>
+                              <input type="text" name="name" placeholder="Андрей" class="form__block-input">
+                           </label>
+                           <label class="form__block">
+                              <div class="form__block-name">Ссылка на профиль VK</div>
+                              <input type="text" name="vk-profile" placeholder="vk.com/example"
+                                 class="form__block-input">
+                           </label>
+                        </div>
+                        <div class="form__row">
+                           <label class="form__block">
+                              <div class="form__block-name">Текст отзыва</div>
+                              <textarea name="text" placeholder="Мне понравилось"
+                                 class="form__block-input form__block-textarea"></textarea>
+                           </label>
+                        </div>
+                        <div class="form__buttons">
+                           <div class="form__radio">
+                              <div class="form__block-name">Отображать фото в отзыве?</div>
+                              <label class="form__radio-btn">
+                                 <input type="radio" name="photo" value="yes" checked class="form__radio-input">
+                                 <span class="form__radio-custom"></span>
+                                 <span class="form__radio-text">Да</span>
+                              </label>
+                              <label class="form__radio-btn">
+                                 <input type="radio" name="photo" value="no" class="form__radio-input">
+                                 <span class="form__radio-custom"></span>
+                                 <span class="form__radio-text">Нет</span>
+                              </label>
+                           </div>
+                           <button type="submit" class="form__submit">отправить</button>
+                        </div>
+                     </form>
+                  </section>
                </main>
             </div>
          </div>
-         <div class="advertising">
-            <p class="advertising__text">
-               Для наших новых клиентов мы предлагаем <strong>скидку 50%</strong> на первый день! Приходите, чтобы
-               лично оценить преимущества коворкинга «Воркадиум»!
-            </p>
-         </div>
-         <section class="form">
-            <h2 class="title form__title">Оставить отзыв</h2>
-            <form action="post" class="form__tag">
-               <div class="form__row">
-                  <label class="form__block">
-                     <div class="form__block-name">Ваше имя</div>
-                     <input type="text" name="name" placeholder="Андрей" class="form__block-input">
-                  </label>
-                  <label class="form__block">
-                     <div class="form__block-name">Ссылка на профиль VK</div>
-                     <input type="text" name="vk-profile" placeholder="vk.com/example" class="form__block-input">
-                  </label>
-               </div>
-               <div class="form__row">
-                  <label class="form__block">
-                     <div class="form__block-name">Текст отзыва</div>
-                     <textarea name="text" placeholder="Мне понравилось"
-                        class="form__block-input form__block-textarea"></textarea>
-                  </label>
-               </div>
-               <div class="form__buttons">
-                  <div class="form__radio">
-                     <div class="form__block-name">Отображать фото в отзыве?</div>
-                     <label class="form__radio-btn">
-                        <input type="radio" name="photo" value="yes" checked class="form__radio-input">
-                        <span class="form__radio-custom"></span>
-                        <span class="form__radio-text">Да</span>
-                     </label>
-                     <label class="form__radio-btn">
-                        <input type="radio" name="photo" value="no" class="form__radio-input">
-                        <span class="form__radio-custom"></span>
-                        <span class="form__radio-text">Нет</span>
-                     </label>
-                  </div>
-                  <button type="submit" class="form__submit">отправить</button>
-               </div>
-            </form>
-         </section>
+
       </div>
 
       <footer class="footer">
@@ -221,29 +250,7 @@
                   href="https://loftschool.com" class="signature__link">LoftSchool.</a> Автор работы: Лукащук Андрей
             </span>
             <a href="#" class="logo"><img src="image/logo-fig.png" alt="логотип" class="logo__img"></a>
-            <span class="social">
-               <div class="social__text">Наши социальные сети</div>
-               <div class="social__group">
-                  <ul class="social__list">
-                     <li class="social__item">
-                        <a href="https://vk.com" title="вконтакте" class="social__link social__link-vk">
-                        </a>
-                     </li>
-                     <li class="social__item">
-                        <a href="https://facebook.com/" title="фейсбук" class="social__link social__link-fb">
-                        </a>
-                     </li>
-                     <li class="social__item">
-                        <a href="https://twitter.com/" title="твиттер" class="social__link social__link-twitter">
-                        </a>
-                     </li>
-                     <li class="social__item">
-                        <a href="https://mail.ru/" title="электронная почта" class="social__link social__link-mail">
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </span>
+
          </div>
       </footer>
    </div>

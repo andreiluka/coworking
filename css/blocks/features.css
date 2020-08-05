@@ -4,11 +4,14 @@
    display: flex;
 }
 
-.features__item {
-   width: 217px;
-   margin: 0 37px 68px 17px;
+.features {
+   min-width: 217px;
+   margin-bottom: 10px;
+   padding: 20px 9px;
    text-align: center;
    color: #262626;
+   border: 1px solid #cccccc;
+   border-radius: 9px;
 }
 
 .features__icon {
@@ -63,9 +66,9 @@
    text-align: left;
 }
 
-.features__item li::before {
+.features li::before {
    content: '\2022';
    font-size: 1.1em;
    color: #b03664;
-   margin-right: 25px;
+   margin-right: 15px;
 }

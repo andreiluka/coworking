@@ -9,6 +9,7 @@
 }
 
 .content-list__img {
+   display: block;
    width: 160px;
    height: 160px;
    overflow: hidden;
@@ -21,7 +22,7 @@
 }
 
 .content-list__desc {
-   width: 694px;
+   /* width: 694px; */
    font-family: "Roboto";
    font-weight: 300;
 }

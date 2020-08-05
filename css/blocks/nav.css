@@ -1,3 +1,15 @@
+.nav__list {
+   display: flex;
+}
+
+.nav__item {
+   margin-right: 45px;
+}
+
+.nav__item:last-child {
+   margin-right: 0;
+}
+
 .nav__link {
    font-size: 12px;
    letter-spacing: 1.2px;
